@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Asistencias</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+    <h1>Simulador de Control de Asistencia</h1>
+    <form id="asistenciaForm">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br>
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido"><br>
+
+        <label for="lugarTrabajo">Lugar de Trabajo:</label>
+        <input type="text" id="lugarTrabajo" name="lugarTrabajo"><br>
+
+        <label for="fecha">Fecha:</label>
+        <input type="date" id="fecha" name="fecha"><br>
+
+        <label for="horaEntrada">Hora de Entrada:</label>
+        <input type="time" id="horaEntrada" name="horaEntrada"><br>
+
+        <label for="horaSalida">Hora de Salida:</label>
+        <input type="time" id="horaSalida" name="horaSalida"><br>
+
+        <button type="submit">Registrar Asistencia</button>
+    </form>
+
+    <div id="asistenciaContainer">
+        <!-- Aquí se mostrará la lista de asistencias registradas -->
+    </div>
+
+    <script src="./js/asistenciaSimulador.js"></script>
+</body>
+</html>
